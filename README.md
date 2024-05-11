@@ -8,10 +8,11 @@ With the files in this Repo you can build an ETL (Extract, Transform, Load) pipe
 The main goal of this project is to create a cloud-based data warehouse that allows Sparkify's analytics team to easily query and analyze the data to gain insights into user behavior, song preferences, and other business metrics. By building this data warehouse, you will enable the company to make data-driven decisions and improve their services.
 
 ## Project Setup Instructions
-1. Create a cluster in Amazon Redshift. To quickly download the full songs dataset you will need an 8 node cluser with dc2.large instances.
-2. In the dwh.cfg file you need to change the CLUSTER and IAM_ROLE information for your IAM_ROLE and CLUSTER information.
-3. Download the files to your local CPU or a cloud based IDE and run create_tables.py and etl.py
-4. Now your data is ready in a final STAR Schema data model for high performance analytics and ad hoc queries
+1. Create a cluster in Amazon Redshift. To quickly download the full songs dataset you will need an 8 node cluser with dc2.large instances. For optimal performance Redshift cluster should also be located in the 'us-west-2' AWS
+   region where the song-data S3 bucket is located.
+3. In the dwh.cfg file you need to change the CLUSTER and IAM_ROLE information for your IAM_ROLE and CLUSTER information.
+4. Download the files to your local CPU or a cloud based IDE and run create_tables.py and etl.py
+5. Now your data is ready in a final STAR Schema data model for high performance analytics and ad hoc queries
 
 ## Files Explanation
 - `sql_queries.py`: Create SQL queries to perform all stages of the project. Queries are loaded into the other files as lists of python strings.
