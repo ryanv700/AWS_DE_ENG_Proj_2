@@ -19,4 +19,4 @@ The main goal of this project is to create a cloud-based data warehouse that all
 - `etl.py`: Copies data from Udacity S3 buckets to the Redshift Staging tables. Inserts data from the Staging tables into the final STAR Schema tables.
 
 ## References
-This project referenced Udacity course material, the Udacity Knowledge portal, and Udacity GPT as references
+This project referenced Udacity course material, the Udacity Knowledge portal, and Udacity GPT as resources
