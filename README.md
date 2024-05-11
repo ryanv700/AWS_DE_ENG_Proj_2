@@ -17,3 +17,6 @@ The main goal of this project is to create a cloud-based data warehouse that all
 - `sql_queries.py`: Create SQL queries to perform all stages of the project. Queries are loaded into the other files as lists of python strings.
 - `create_Table.py`: Checks for existing of tables with the desired names in the DB and drops them. Then creates 7 template tables for staging and final data insertion.
 - `etl.py`: Copies data from Udacity S3 buckets to the Redshift Staging tables. Inserts data from the Staging tables into the final STAR Schema tables.
+
+## References
+This project referenced Udacity course material, the Udacity Knowledge portal, and Udacity GPT as references
