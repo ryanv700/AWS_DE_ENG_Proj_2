@@ -10,7 +10,7 @@ The main goal of this project is to create a cloud-based data warehouse that all
 ## Redshift Architecture 
 The goal of the project is to create a Redshift Architecture that stores data in a way that is optimized for analytical queries and visual insights:
 
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/03fc8bf5-0127-4d08-a05c-2d19cc2fe649">
+<img width="527" alt="image" src="https://github.com/user-attachments/assets/afe34cc4-c63d-4aba-82d4-9d66335eb584">
 
 ## Visual Overview of the S3 to Redshift Architecture for Sparkify
 ![image](https://github.com/user-attachments/assets/25cbd7c0-4a9a-4a3a-b2cf-e7141d829fe2)
