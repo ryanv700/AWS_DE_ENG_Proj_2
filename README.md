@@ -7,6 +7,9 @@ With the files in this Repo you can build an ETL (Extract, Transform, Load) pipe
 
 The main goal of this project is to create a cloud-based data warehouse that allows Sparkify's analytics team to easily query and analyze the data to gain insights into user behavior, song preferences, and other business metrics. By building this data warehouse, you will enable the company to make data-driven decisions and improve their services.
 
+## Visual Overview of the S3 to Redshift Architecture 
+![image](https://github.com/user-attachments/assets/25cbd7c0-4a9a-4a3a-b2cf-e7141d829fe2)
+
 ## Project Setup Instructions
 1. Create a cluster in Amazon Redshift. To quickly download the full songs dataset you will need an 8 node cluser with dc2.large instances. For optimal performance Redshift cluster should also be located in the 'us-west-2' AWS
    region where the song-data S3 bucket is located.
