@@ -16,10 +16,7 @@ The goal of the project is to create a Redshift Architecture that stores data in
 <img height="400" width="600" alt="image" src="https://github.com/user-attachments/assets/29b9cb23-45c7-4891-a783-2a2191c60c1b">
 
 ## Star Schema Overview
-Using the song and log data found in Amazon S3 the goal is to create the final STAR schema below in Amazon Redshift:
-
-Schema for Song Play Analysis
-Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
+Using the song and log data found in Amazon S3 the goal is to create the final STAR schema tables below in Amazon Redshift:
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/790a26ae-7b69-413f-b64c-e868dd25845c">
 
