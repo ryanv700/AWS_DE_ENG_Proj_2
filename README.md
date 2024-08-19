@@ -7,7 +7,12 @@ With the files in this Repo you can build an ETL (Extract, Transform, Load) pipe
 
 The main goal of this project is to create a cloud-based data warehouse that allows Sparkify's analytics team to easily query and analyze the data to gain insights into user behavior, song preferences, and other business metrics. By building this data warehouse, you will enable the company to make data-driven decisions and improve their services.
 
-## Visual Overview of the S3 to Redshift Architecture 
+## Redshift Architecture 
+The goal of the project is to create a Redshift Architecture that stores data in a way that is optimized for analytical queries and visual insights:
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/03fc8bf5-0127-4d08-a05c-2d19cc2fe649">
+
+## Visual Overview of the S3 to Redshift Architecture for Sparkify
 ![image](https://github.com/user-attachments/assets/25cbd7c0-4a9a-4a3a-b2cf-e7141d829fe2)
 
 ## Project Setup Instructions
