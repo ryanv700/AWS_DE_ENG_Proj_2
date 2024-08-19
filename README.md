@@ -15,6 +15,14 @@ The goal of the project is to create a Redshift Architecture that stores data in
 ## Visual Overview of the S3 to Redshift Architecture for Sparkify
 <img height="400" width="600" alt="image" src="https://github.com/user-attachments/assets/29b9cb23-45c7-4891-a783-2a2191c60c1b">
 
+## Star Schema Overview
+Using the song and log data found in Amazon S3 the goal is to create the final STAR schema below in Amazon Redshift:
+
+Schema for Song Play Analysis
+Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/790a26ae-7b69-413f-b64c-e868dd25845c">
+
 ## Project Setup Instructions
 1. Create a cluster in Amazon Redshift. To quickly download the full songs dataset you will need an 8 node cluser with dc2.large instances. For optimal performance Redshift cluster should also be located in the 'us-west-2' AWS
    region where the song-data S3 bucket is located.
